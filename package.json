@@ -1,0 +1,40 @@
+{
+  "name": "palenight-themes",
+  "displayName": "Palenight Themes",
+  "description": "A collection of themes for VSCode, inspired by the palenight color palette",
+  "version": "0.1.0",
+  "publisher": "João Chervinski",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Palenight Storm",
+        "uiTheme": "vs-dark",
+        "path": "./themes/palenight-storm-color-theme.json"
+      },
+      {
+        "label": "Palenight Tokyo",
+        "uiTheme": "vs-dark",
+        "path": "./themes/palenight-tokyo-color-theme.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joaotav/palenight-vscode-themes"
+  },
+  "keywords": [
+    "theme",
+    "dark theme",
+    "palenight",
+    "tokyo",
+    "storm",
+    "rust"
+  ],
+  "icon": "icon.png"
+}
