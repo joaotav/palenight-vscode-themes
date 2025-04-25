@@ -1,6 +1,6 @@
 {
-  "name": "palenight-themes",
-  "displayName": "Palenight Themes",
+  "name": "palenight-theme",
+  "displayName": "Palenight Theme",
   "description": "A collection of themes for VSCode, inspired by the palenight color palette",
   "version": "0.1.0",
   "publisher": "João Chervinski",
@@ -36,5 +36,5 @@
     "storm",
     "rust"
   ],
-  "icon": "icon.png"
+  "icon": "assets/icons/palenight-theme-icon.png"
 }
