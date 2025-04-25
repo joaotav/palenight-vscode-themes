@@ -8,7 +8,7 @@ A collection of dark themes for Visual Studio Code inspired by the Palenight and
 
 ## There are so many themes out there. Why create another one?
 
-I created this theme primarily out of security concerns with third-party VSCode extensions. The recent security incidents associated with extensions, particulary the one involving the Material Theme, highlighted the risks associated with trusting third-party extensions, regardless if they are widely used.
+I created this theme primarily out of security concerns with third-party VSCode extensions. The recent security incidents associated with extensions, particularly the one involving the Material Theme, highlighted the risks of trusting third-party extensions, even if they are widely used.
 
 I felt uncomfortable continuing to use third-party themes that could potentially be compromised. Color themes should be simple, static resources that don't need broad system access or connections to external servers.
 
