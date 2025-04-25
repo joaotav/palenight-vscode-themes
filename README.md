@@ -44,7 +44,7 @@ This entire theme consists of static JSON files that define colors and syntax hi
 
 1. Clone this repository
 ```bash
-git clone https://github.com/joaotav/ayu-evening-vscode-theme.git
+git clone https://github.com/joaotav/palenight-vscode-themes
 ```
 
 2. Copy the folder to your VS Code extensions directory:
