@@ -210,6 +210,188 @@
         "foreground": "#7dcfff"
       }
     },
+
+    {
+      "name": "JSON specific: Property names",
+      "scope": ["support.type.property-name.json"],
+      "settings": {
+        "foreground": "#7dcfff"
+      }
+    },
+    {
+      "name": "JSON specific: Object brackets",
+      "scope": ["punctuation.definition.dictionary.begin.json", "punctuation.definition.dictionary.end.json"],
+      "settings": {
+        "foreground": "#c0caf5"
+      }
+    },
+    {
+      "name": "JSON specific: Array brackets",
+      "scope": ["punctuation.definition.array.begin.json", "punctuation.definition.array.end.json"],
+      "settings": {
+        "foreground": "#c0caf5"
+      }
+    },
+
+    {
+      "name": "TOML specific: Keys",
+      "scope": ["entity.name.section.toml", "variable.other.key.toml"],
+      "settings": {
+        "foreground": "#7dcfff"
+      }
+    },
+    {
+      "name": "TOML specific: Section names",
+      "scope": ["entity.name.section.toml"],
+      "settings": {
+        "foreground": "#f7768e"
+      }
+    },
+    {
+      "name": "TOML specific: Dates and times",
+      "scope": ["constant.other.date.toml", "constant.other.datetime.toml"],
+      "settings": {
+        "foreground": "#ff9e64"
+      }
+    },
+
+    {
+      "name": "JavaScript specific: Template literals",
+      "scope": ["string.template.js", "punctuation.definition.template-expression.begin.js", "punctuation.definition.template-expression.end.js"],
+      "settings": {
+        "foreground": "#9ece6a"
+      }
+    },
+    {
+      "name": "JavaScript specific: Template expression",
+      "scope": ["meta.template.expression.js"],
+      "settings": {
+        "foreground": "#c0caf5"
+      }
+    },
+    {
+      "name": "JavaScript specific: Arrow function",
+      "scope": ["storage.type.function.arrow.js"],
+      "settings": {
+        "foreground": "#89ddff"
+      }
+    },
+    {
+      "name": "JavaScript specific: Object literal keys",
+      "scope": ["meta.object-literal.key.js"],
+      "settings": {
+        "foreground": "#7dcfff"
+      }
+    },
+    {
+      "name": "JavaScript specific: DOM properties",
+      "scope": ["support.variable.property.dom.js"],
+      "settings": {
+        "foreground": "#7dcfff"
+      }
+    },
+    {
+      "name": "JavaScript specific: New operator",
+      "scope": ["keyword.operator.new.js"],
+      "settings": {
+        "foreground": "#bb9af7"
+      }
+    },
+    {
+      "name": "JavaScript specific: This keyword",
+      "scope": ["variable.language.this.js"],
+      "settings": {
+        "foreground": "#f7768e",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "JavaScript specific: Built-in classes",
+      "scope": ["support.class.builtin.js"],
+      "settings": {
+        "foreground": "#e0af68"
+      }
+    },
+    {
+      "name": "JavaScript specific: Built-in functions",
+      "scope": ["support.function.js"],
+      "settings": {
+        "foreground": "#7aa2f7"
+      }
+    },
+
+    {
+      "name": "C/C++ specific: Preprocessor directives",
+      "scope": ["meta.preprocessor.c", "keyword.control.directive.include.c", "keyword.control.directive.pragma.c", "meta.preprocessor.macro.c"],
+      "settings": {
+        "foreground": "#bb9af7",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "C/C++ specific: Include statement",
+      "scope": ["string.quoted.other.lt-gt.include.c", "string.quoted.double.include.c"],
+      "settings": {
+        "foreground": "#9ece6a"
+      }
+    },
+    {
+      "name": "C/C++ specific: Namespace",
+      "scope": ["entity.name.namespace.c", "entity.name.namespace.cpp"],
+      "settings": {
+        "foreground": "#e0af68"
+      }
+    },
+    {
+      "name": "C/C++ specific: Class",
+      "scope": ["entity.name.type.class.c", "entity.name.type.class.cpp", "entity.name.type.struct.c", "entity.name.type.struct.cpp"],
+      "settings": {
+        "foreground": "#e0af68"
+      }
+    },
+    {
+      "name": "C/C++ specific: Function definition",
+      "scope": ["entity.name.function.definition.c", "entity.name.function.definition.cpp"],
+      "settings": {
+        "foreground": "#7aa2f7"
+      }
+    },
+    {
+      "name": "C/C++ specific: Storage types",
+      "scope": ["storage.type.built-in.primitive.c", "storage.type.built-in.c", "storage.type.built-in.cpp"],
+      "settings": {
+        "foreground": "#bb9af7"
+      }
+    },
+    {
+      "name": "C++ specific: STL containers",
+      "scope": ["support.class.std.cpp"],
+      "settings": {
+        "foreground": "#e0af68"
+      }
+    },
+    {
+      "name": "C++ specific: STL functions",
+      "scope": ["support.function.std.cpp"],
+      "settings": {
+        "foreground": "#7aa2f7" 
+      }
+    },
+    {
+      "name": "C++ specific: Template argument",
+      "scope": ["entity.name.type.template.cpp"],
+      "settings": {
+        "foreground": "#e0af68"
+      }
+    },
+    {
+      "name": "C++ specific: Template parameter",
+      "scope": ["meta.template.parameter.cpp"],
+      "settings": {
+        "foreground": "#f7768e"
+      }
+    },
+
     {
       "name": "Comment",
       "scope": ["comment", "punctuation.definition.comment"],
