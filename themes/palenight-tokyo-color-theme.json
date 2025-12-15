@@ -562,6 +562,17 @@
       "settings": {
         "foreground": "#e0af68"
       }
+    },
+    {
+      "name": "Solidity: Primitive types",
+      "scope": [
+      "support.type.primitive",
+      "support.type.builtin",
+      "support.type"
+      ],
+      "settings": {
+      "foreground": "#7dcfff"
+      }
     }
   ]
 }
